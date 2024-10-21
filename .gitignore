@@ -1,0 +1,45 @@
+# Byte-compiled files and caches
+__pycache__/
+*.py[cod]
+
+# Django specific
+db.sqlite3
+*.log
+
+# Migrations
+*/migrations/*.pyc 
+*/migrations/*.py[cod]
+**.pyc
+
+# Secret keys and environment settings
+.env
+.env.local
+
+# Ignore virtual environments
+venv/
+.virtualenv/
+.venv/
+
+# Static files (optional if not tracked)
+staticfiles/
+media/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore compiled files
+*.cpython-*
+
+# Ignore Python egg info
+*.egg-info/
+dist/
+build/
+
+oldsetting.py
